@@ -16,6 +16,9 @@ pub mod modes;
 pub mod result;
 pub mod settings;
 pub mod types;
+pub mod odilia_object;
+pub mod odilia_event;
+pub mod odilia_action;
 
 pub type Accessible = (UniqueName<'static>, ObjectPath<'static>);
 pub use result::OdiliaResult as Result;
