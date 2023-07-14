@@ -194,7 +194,7 @@ async fn dispatch(state: &ScreenReaderState, event: Event) -> eyre::Result<()> {
 
 #[cfg(test)]
 pub mod dispatch_tests {
-	use crate::ScreenReaderState;
+	use crate::state::ScreenReaderState;
 	use tokio::sync::mpsc::channel;
 
 	#[tokio::test]

@@ -1,4 +1,4 @@
-use crate::ScreenReaderState;
+use crate::state::ScreenReaderState;
 use atspi::events::{AddAccessibleEvent, CacheEvents, RemoveAccessibleEvent};
 use odilia_cache::AccessiblePrimitive;
 
