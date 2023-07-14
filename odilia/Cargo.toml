@@ -49,6 +49,7 @@ tracing-tree.workspace = true
 tracing.workspace = true
 xdg = "2.4.1"
 zbus.workspace = true
+actix = "0.13.0"
 
 [dev-dependencies]
 lazy_static = "1.4.0"
